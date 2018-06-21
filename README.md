@@ -39,7 +39,7 @@ The following properties can be configured:
 				<b>value</b> is the notification which send on trigger<br>
 				<br>
 				<pre>
-					<code>buttons: {
+<code>buttons: {
 	17: "BUTTON_17_CLICKED",
 	27: "BUTTON_27_CLICKED"
 }</code>
