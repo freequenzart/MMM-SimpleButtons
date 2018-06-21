@@ -1,5 +1,5 @@
 # MMM-SimpleButtons
-This an extension for the [MagicMirror](https://github.com/MichMich/MagicMirror). This Module based on the [MMM-Button Repository](https://github.com/PtrBld/MMM-Button) by [PtrBld](https://github.com/PtrBld). Because of some truigger problems with the [MMM-Buttons](https://github.com/Jopyth/MMM-Buttons) by [Jopyth](https://github.com/Jopyth), I extend the basic idea of the MMM-Button to handle multiple buttons.
+This an extension for the [MagicMirror](https://github.com/MichMich/MagicMirror). This Module based on the [MMM-Button Repository](https://github.com/PtrBld/MMM-Button) by [PtrBld](https://github.com/PtrBld). Because of some trigger problems with the [MMM-Buttons](https://github.com/Jopyth/MMM-Buttons) by [Jopyth](https://github.com/Jopyth), I extend the basic idea of the MMM-Button to handle multiple buttons.
 ## Installation
 1. Navigate into your MagicMirror's `modules` folder and execute `git clone https://github.com/freequenzart/MMM-SimpleButtons.git`. A new folder will appear navigate into it.
 2. Execute `npm install` to install the node dependencies.
