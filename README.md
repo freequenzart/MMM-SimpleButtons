@@ -35,16 +35,14 @@ The following properties can be configured:
 		<tr>
 			<td><code>buttons</code></td>
 			<td>an Object which contains the button configuration.<br>
-				<b>object key<b> is the inputPin <br>
-				<b>value<b> is the notification which send on trigger<br>
+				<b>object key</b> is the inputPin <br>
+				<b>value</b> is the notification which send on trigger<br>
 				<br>
 				<pre>
-					<code>
-						buttons: {
-							17: "BUTTON_17_CLICKED",
-							27: "BUTTON_27_CLICKED"
-						}
-					</code>
+					<code>buttons: {
+	17: "BUTTON_17_CLICKED",
+	27: "BUTTON_27_CLICKED"
+}</code>
 				</pre>
 			</td>
 		</tr>
