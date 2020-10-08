@@ -59,6 +59,17 @@ The following properties can be configured:
 ## Developer Notes
 Thank you [PtrBld](https://github.com/PtrBld) for the basic idea and code of [MMM-Button Repository](https://github.com/PtrBld/MMM-Button)!
 
+### Get buttons working
+I had the problem, that some of my buttons won't work from the beginning. So I wrote the following python script:
+````python
+import RPi.GPIO as GPIO # Import Raspberry Pi GPIO library
+
+GPIO.setmode(GPIO.BCM)
+
+GPIO.setup(*, GPIO.IN, pull_up_down=GPIO.PUD_UP) # * insert the gpio number for the pin and repeat this line for all buttons
+````
+Afterwards I run this script on startup by `rc.local` e.g. (https://www.raspberrypi.org/documentation/linux/usage/rc-local.md)
+
 ## Dependencies
 - [onoff](https://www.npmjs.com/package/onoff) (installed via `npm install`)
 
